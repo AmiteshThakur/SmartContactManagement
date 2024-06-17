@@ -66,7 +66,7 @@ public class HomeController {
 			}
 			System.out.println("agreement : "+agreement);
 			user.setPassword(passwordEncoder.encode(user.getPassword()));
-			user.setImageUrl("profile.jpg");
+			user.setImageUrl("image/profile-icon.png");
 			user.setEnabled(true);
 			user.setRole("ROLE_USER");
 
@@ -89,7 +89,7 @@ public class HomeController {
 		return "signup";
 	}
 	
-	@GetMapping("/signin")
+	@GetMapping("/login")
 	public String login(Model model) {
 		model.addAttribute("title", "Login : Smart contact Manager");
 		return "login";

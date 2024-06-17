@@ -36,7 +36,7 @@ public class Contact {
 	//@Pattern(regexp="((0/91)?[7-9][0-9]{9})", message = "Enter valid mobile number" )
 	private String phone;
 	
-	@NotBlank(message = "Description must not be blank")
+	// @NotBlank(message = "Description must not be blank")
 	@Column(length = 5000)
 	//@Size(min = 3, message = "description must be min 3 letters")
 	private String description;

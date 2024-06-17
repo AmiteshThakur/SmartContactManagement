@@ -71,6 +71,24 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-oauth2-client -->
+<dependency>
+    <groupId>org.springframework.security</groupId>
+    <artifactId>spring-security-oauth2-client</artifactId>
+  
+</dependency>
+
+<dependencies>
+    <dependency>
+        <groupId>com.nimbusds</groupId>
+        <artifactId>oauth2-oidc-sdk</artifactId>
+        <version>8.23.1</version>
+    </dependency>
+</dependencies>
+
+
+
 	</dependencies>
 
 	<build>
